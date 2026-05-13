@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HTML Concepts with Classes and IDs</title>
+
+    <style>
+
+        /* ID Styling */
+        #mainTitle {
+            color: darkred;
+            text-align: center;
+            font-size: 36px;
+            border: 3px solid darkred;
+            padding: 10px;
+        }
+
+        #subTitle {
+            color: purple;
+            text-align: center;
+            font-size: 28px;
+            border: 2px dashed purple;
+            padding: 8px;
+        }
+
+        /* Class Styling */
+        .box {
+            background-color: lightblue;
+            padding: 15px;
+            margin: 15px;
+            border-radius: 10px;
+        }
+
+        .highlight {
+            color: blue;
+            font-weight: bold;
+        }
+
+        .buttonStyle {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- ID Example -->
+    <h1 id="mainTitle">HTML Concepts</h1>
+
+    <h2 id="subTitle">Classes and IDs Example</h2>
+
+    <!-- Paragraph -->
+    <div class="box">
+        <h3>Paragraph</h3>
+
+        <p>
+            HTML is used to create webpages.
+        </p>
+    </div>
+
+    <!-- Link -->
+    <div class="box">
+        <h3>Link</h3>
+
+        <a href="https://www.google.com" class="highlight">
+            Visit Google
+        </a>
+    </div>
+
+    <!-- Image -->
+    <div class="box">
+        <h3>Image</h3>
+
+        <img src="https://via.placeholder.com/150" alt="Sample Image">
+    </div>
+
+    <!-- Ordered List -->
+    <div class="box">
+        <h3>Ordered List</h3>
+
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+    </div>
+
+    <!-- Unordered List -->
+    <div class="box">
+        <h3>Unordered List</h3>
+
+        <ul>
+            <li>Apple</li>
+            <li>Mango</li>
+            <li>Banana</li>
+        </ul>
+    </div>
+
+    <!-- Span -->
+    <div class="box">
+        <h3>Span Example</h3>
+
+        <p>
+            This is a 
+            <span class="highlight">highlighted text</span>.
+        </p>
+    </div>
+
+    <!-- Form -->
+    <div class="box">
+        <h3>Form Example</h3>
+
+        <input type="text" placeholder="Enter your name">
+
+        <br><br>
+
+        <button class="buttonStyle">
+            Submit
+        </button>
+    </div>
+
+</body>
+</html>
